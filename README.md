@@ -1,60 +1,39 @@
-**简体中文** | [English](README-EN.md) | [繁體中文](README-ZH_TW.md)
-
-<div align="center">
-
-<img src="Plain Craft Launcher 2/Images/icon.ico" alt="Logo" width="80" height="80">
-
 # Rain Craft Launcher
 
-[社区版下载](https://github.com/PCL-Community/PCL-CE/releases/latest) |
-[上游存储库](https://github.com/Meloong-Git/PCL)
+这是一个基于原始 PCL 代码进行二次开发/分支维护的 Minecraft 启动器项目。当前仓库为个人 fork，保留并遵守原始项目的许可证要求，未对原始代码、素材、许可声明和版权信息进行移除或替换。
 
-[提交问题](https://github.com/PCL-Community/PCL-CE/issues/new/choose) |
-[贡献指南](https://github.com/PCL-Community/PCL-CE/wiki/开发指南)
+## 项目简介
 
-</div>
+Rain Craft Launcher 是在原有 PCL 生态基础上进行定制与增强的启动器项目，目标是在保留原始功能与使用体验的同时，加入更多适合本项目使用场景的改动和扩展。
 
-RCL是基于 PCL 开源代码二次开发的社区版本，包括了主线暂未制作的功能！
+## 许可证说明
 
-RAIN的版本号与主线并非严格对应关系，也请不要向官方仓库反馈社区版问题。
+本仓库必须遵守原始项目的许可条款，且不得以任何形式绕过或替换原始许可证：
 
-欢迎大家来用用看！
+- `Plain Craft Launcher 2/` 目录继续遵循其原有的自定义许可证，详情见：`Plain Craft Launcher 2/LICENCE`
+- 本仓库中其余目录继续遵循 Apache License 2.0
+- 对于任何修改、分发、再发布或衍生作品，必须保留原始版权声明与许可证说明
+- 不得删除或覆盖原始项目中已附带的许可证文件、版权说明及通知文件
+- 若你重新分发本 fork，请一并保留 Apache License 2.0 的完整文本，以及原始项目相关版权与许可信息
 
+本项目仅在遵循原始作者许可前提下进行 fork 与修改，任何未遵循许可要求的使用方式均不受本说明保护。
 
-## 💻 支持平台
+## 原始项目声明
 
-| 操作系统 | 支持情况 | 环境要求 |
-|---|---|---|
-| Windows 10 1809 (17763) 或更高 | ✅ 完整支持 | [.NET 10 Desktop Runtime](https://get.dot.net/10) |
-| Windows 8 - Windows 10 1809 (17763) | ⚠️ 理论能跑，酌情提供社区支持 | [.NET 10 Desktop Runtime](https://get.dot.net/10) |
-| Windows 7 或更低版本 | ❌ 不支持 | / |
-| macOS / Linux / 其他操作系统 | ⚠️ 仅跨平台开发支持（交叉编译） | [.NET 10 SDK](https://get.dot.net/10) |
+本仓库基于原始项目进行二次开发，相关上游来源应继续被保留并正确标注。请在修改、发布或分发时，遵守上游原始许可证及其附带规则。
 
-**✅ 完整支持**：尽可能提供一切相关支持，但必须确保启动器为最新版本。
+## 使用说明
 
-**⚠️ 理论能跑，酌情提供社区支持**：RCL 应该可以在这些平台上运行，但不保证功能完全可用。你可能需要升级到完整支持的系统版本以获得进一步社区技术支持。
+- 仅在符合许可证要求的情况下使用、修改和分发本项目
+- 若你要公开发布本 fork，请同时附上原始许可证说明
+- 请在必要时保留对原始项目的署名和版权信息
 
-**❌ 不支持**：RCL 在这些平台的可用性较低，甚至压根打不开。请升级操作系统以使用 PCL CE。
+## 相关链接
 
-**⚠️ 仅跨平台开发支持（交叉编译）**：RCL 的源代码可以在 macOS 与 Linux 平台编译，但无法直接运行。作为开发者，你可以在这些平台上进行开发，然后将编译产物转移到 Windows 系统测试。
+- [上游项目](https://github.com/Meloong-Git/PCL)
+- [PCL Community](https://github.com/PCL-Community/PCL-CE)
+- [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)
 
-**注**：    
-社区仅对最新版本的启动器提供支持。    
-取决于部分问题的特殊性（如系统不完整），有时你仍然必须升级操作系统以继续获得支持。
-RCL 始终建议使用最新版本的操作系统以获得最佳体验。    
-你仍然可以尝试在不受支持的系统上使用 RCL，但可能会遇到很多额外问题。
+## 备注
 
-## 🔒 许可证
-
-- `Plain Craft Launcher 2/` 使用 [自定义许可证](https://github.com/PCL-Community/PCL-CE/blob/dev/Plain%20Craft%20Launcher%202/LICENCE)
-- `其余所有目录` 使用 [Apache License 2.0](https://github.com/PCL-Community/PCL-CE/blob/dev/LICENSE)
-
-## 🌟 统计数据
-![Alt](https://repobeats.axiom.co/api/embed/3e46296e6e3a134991a783480fd2f62723bb0353.svg "Repobeats analytics image")
-
-[![Star History Chart](https://api.star-history.com/chart?repos=PCL-Community/PCL-CE&type=date&legend=top-left&sealed_token=Ts-GaAXJ5nb9fJERusrXneo05pfZ83tMhReHJ98nmmlemBTqHS5Ozocdep1MTMdsX-6CRiQH9TqiS1Kk7SxjTfk02eUOxnm25oHff6TLLvrY7pGujOkU1IwjVFQLE-5GJYogutJAyI78jujBlOnpk3J2OKAY1PBhmkyUOzW1C1sdz5BzPbj2eBbJGvDx)](https://www.star-history.com/?repos=PCL-Community%2FPCL-CE&type=date&legend=top-left)
-
-**此页浏览量**（总计 / 今日）：[![Hits](https://hits.zkitefly.eu.org/?tag=https://github.com/PCL-Community/PCL-CE)](https://hits.zkitefly.eu.org/?tag=https://github.com/PCL-Community/PCL-CE&web=true)
-## ❤️ 贡献者
-
-[![](https://contrib.rocks/image?repo=PCL-Community/PCL-CE)](https://github.com/PCL-Community/PCL-CE/graphs/contributors)
+本 README 仅用于说明该 fork 的来源、许可要求和使用规范。若需要详细的法律条款，请参考仓库中的 `LICENSE` 和 `Plain Craft Launcher 2/LICENCE` 文件。
